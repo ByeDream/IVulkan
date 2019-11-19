@@ -1,6 +1,6 @@
 set(FILES "${CMAKE_CURRENT_SOURCE_DIR}/Foo.h")
 set(SUBDIRECTORIES "")
-set(RELATIVE_PATH "inlcude/Foo")
+set(RELATIVE_PATH "include/Foo")
 
 #Add all subdirectories
 foreach(VAR ${SUBDIRECTORIES})

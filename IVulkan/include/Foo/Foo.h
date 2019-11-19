@@ -1,8 +1,9 @@
-#ifndef __FOO_H__
-#define __FOO_H__
+#ifndef IVULKAN_FOO_H
+#define IVULKAN_FOO_H
 
 #include "ivulkan_export.h"
+#include "IVulkan_config.h"
 
 void IVULKAN_EXPORT foo();
 
-#endif // __FOO_H__
+#endif // IVULKAN_FOO_H

@@ -1,0 +1,8 @@
+#ifndef IVULKAN_CONFIG_H
+#define IVULKAN_CONFIG_H
+
+// the configured options and settings for IVulkan
+#define IVULKAN_VERSION_MAJOR @IVulkan_VERSION_MAJOR@
+#define IVULKAN_VERSION_MINOR @IVulkan_VERSION_MINOR@
+
+#endif // IVULKAN_CONFIG_H

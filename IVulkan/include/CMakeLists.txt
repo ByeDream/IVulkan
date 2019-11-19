@@ -1,6 +1,6 @@
 set(FILES "")
 set(SUBDIRECTORIES "Foo")
-set(RELATIVE_PATH "inlcude")
+set(RELATIVE_PATH "include")
 
 #Add all subdirectories
 foreach(VAR ${SUBDIRECTORIES})

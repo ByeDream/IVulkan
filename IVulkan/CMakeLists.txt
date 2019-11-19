@@ -29,6 +29,13 @@ include("GenerateExportHeader")
 generate_export_header("${PROJECT_NAME}")
 install(FILES "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}_export.h" DESTINATION "include")
 
+# configure a header file to pass some of the CMake settings
+# to the source code
+configure_file(
+    "${CMAKE_CURRENT_SOURCE_DIR}/${PROJECT_NAME}_config.h.in"
+    "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}_config.h"
+)
+install(FILES "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}_config.h" DESTINATION "include")
 
 add_subdirectory("include")
 add_subdirectory("src")

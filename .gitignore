@@ -11,3 +11,5 @@ CTestTestfile.cmake
 Build/
 build/
 BUILD/
+
+.vscode
